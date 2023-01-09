@@ -2,16 +2,20 @@
 
 A flutter OCR mobile application that stores images in a cloud storage bucket and captures the text using a cloud function
 
-## Cloud Services Flow
-![flow](https://user-images.githubusercontent.com/57103479/211250751-ec1ac142-fe57-4dc6-a5ec-1c3f717c5ee2.jpg)
+## App Architecture
+![WhatsApp Image 2023-01-09 at 12 45 49](https://user-images.githubusercontent.com/57103479/211257134-d869f65d-5835-4368-862b-bb35f2191b3c.jpg)
+
+
 
 ## App Flow
 
 1. The user is prompted to capture a photo from which they wish to extract the text 
-![WhatsApp Image 2023-01-09 at 11 15 02](https://user-images.githubusercontent.com/57103479/211249219-88238474-5a82-45fb-ade4-7d1a07d6319b.jpg)
+![WhatsApp Image 2023-01-09 at 12 25 52](https://user-images.githubusercontent.com/57103479/211254717-95be8ce8-dc7a-49d7-b853-6a3269192184.jpg)
+
 
 2. The upload button stores the image in a cloud storage bucket 
-![WhatsApp Image 2023-01-09 at 11 15 03](https://user-images.githubusercontent.com/57103479/211249232-465c7b9b-b393-45f2-9f75-e6c4dc19678a.jpg)
+![WhatsApp Image 2023-01-09 at 12 25 51](https://user-images.githubusercontent.com/57103479/211254972-f4839cb4-3ff9-4878-91eb-0dc9ec4a77f4.jpg)
+
 
 3. The stored image is passed through a cloud function that extracts the text from that image
 ![image](https://user-images.githubusercontent.com/57103479/211249705-b7f4dedb-4df4-467e-8683-50b48626ddae.png)
