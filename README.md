@@ -24,3 +24,6 @@ A flutter OCR mobile application that stores images in a cloud storage bucket an
 4. The cloud function store the extracted text in a seperate bucket 
 ![Screenshot 2023-01-09 114032](https://user-images.githubusercontent.com/57103479/211249920-c3312431-88f2-433c-84d8-33a0ccca7076.png)
 
+![image](https://user-images.githubusercontent.com/57103479/211325837-908e884c-18bf-41cc-9edd-c316abd7b9de.png)
+
+
